@@ -31,6 +31,8 @@
             ctx.fillRect(50, 50, 100, 100);
             ctx.fillStyle = "rgb(255, 0, 0)";
             ctx.fillRect(200, 50, 100, 100);
+            ctx.restore();
+            ctx.fillRect(350, 50, 100, 100);
 
 
         });
