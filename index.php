@@ -26,7 +26,13 @@
         $(document).ready(function(){
             var canvas = document.getElementById("gameScreen");
             var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "rgb(0, 0, 255)";
+            ctx.save();
             ctx.fillRect(50, 50, 100, 100);
+            ctx.fillStyle = "rgb(255, 0, 0)";
+            ctx.fillRect(200, 50, 100, 100);
+
+
         });
     </script>
     </body>
