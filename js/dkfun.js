@@ -8,10 +8,11 @@
  *
  */
 
-var canvas = document.getElementById('gameScreen');     //canvas area
+var canvas;     //canvas area
 var ctx; //2d context
 
 function init(){
+    canvas = document.getElementById('gameScreen');
     if(canvas.getContext()){
         ctx = canvas.getContext('2d');
 
