@@ -29,10 +29,16 @@
             ctx.fillStyle = "rgb(0, 0, 255)";
             ctx.save();
             ctx.fillRect(50, 50, 100, 100);
+
             ctx.fillStyle = "rgb(255, 0, 0)";
+            ctx.save();
             ctx.fillRect(200, 50, 100, 100);
+
             ctx.restore();
             ctx.fillRect(350, 50, 100, 100);
+
+            ctx.restore();
+            ctx.fillRect(50, 200, 100, 100);
 
 
         });
