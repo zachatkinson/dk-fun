@@ -13,9 +13,7 @@ var ctx; //2d context
 
 function init(){
     canvas = document.getElementById('gameScreen');
-    if(canvas.getContext()){
-        ctx = canvas.getContext('2d');
-
+    if(ctx = canvas.getContext('2d')){
         //draw some lines
         drawLine(40, 40, 440, 40, "#0a0");
         drawLine(40, 45, 440, 45, "#a00");
